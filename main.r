@@ -1,7 +1,5 @@
 #hello world 
-pkg <- c("gtrendsR", "reshape2", "ggplot2", "dplyr", "leaflet", "timetk", "forecast") #"tidyquant",
-
-library(tidyquant)
+pkg <- c("gtrendsR", "reshape2", "ggplot2", "dplyr", "leaflet", "timetk", "forecast")
 
 # check to see if packages are installed. Install them if they are not, then load them into the R session.
 install_all_pkg <- function(pkg){

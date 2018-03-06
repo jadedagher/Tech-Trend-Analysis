@@ -56,8 +56,6 @@ ggplot(google.trends_cloud, aes(date, cloud_computing_word)) +
   
 ```
 
-![1](https://github.com/jadedagher/Tech-Trend-Analysis/blob/master/www/1.jpeg?raw=true)
-
 News volumes correlated with web search volumes data
 
 ```r
@@ -90,7 +88,7 @@ ggplot(NULL) +
   theme_light()
   
 ```
-![2](https://github.com/jadedagher/Tech-Trend-Analysis/blob/master/www/2.jpeg?raw=true)
+![1](https://github.com/jadedagher/Tech-Trend-Analysis/blob/master/www/1.jpeg?raw=true)
 
 
 ### Finaly get a time series prediction for "cloud computing" trend
@@ -218,5 +216,6 @@ mpe  <- mean(test_error_pct, na.rm=TRUE)
 tibble(me, rmse, mae, mape, mpe) %>% glimpse()
 
 ```
+![2](https://github.com/jadedagher/Tech-Trend-Analysis/blob/master/www/2.jpeg?raw=true)
 ![3](https://github.com/jadedagher/Tech-Trend-Analysis/blob/master/www/3.jpeg?raw=true)
 ![4](https://github.com/jadedagher/Tech-Trend-Analysis/blob/master/www/4.jpeg?raw=true)

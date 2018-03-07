@@ -11,6 +11,8 @@ This study explores
 2) an adjusted linear model time series to predict the curve trend
 2) new approach for simulating hype cycle curves with mathematical functions
 
+All results available here: http://techtrendocto.costud.fr/
+
 ### Get started
 
 Download and import automatically all the libraries of the project with: 
